@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { storiesOf } from '@storybook/react'
+import Center from '../components/center'
 
 import IconAvatars from '../components/dev/avatars/IconAvatars'
 import LetterAvatars from '../components/dev/avatars/LetterAvatars'
@@ -8,17 +9,17 @@ import ImageAvatars from '../components/dev/avatars/ImageAvatars'
 
 storiesOf('Avatars', module)
   .add('Image Avatars', () =>
-    <div>
+    <Center>
       <ImageAvatars />
-    </div>
+    </Center>
   )
   .add('Icon Avatars', () =>
-    <div>
+    <Center>
       <IconAvatars />
-    </div>
+    </Center>
   )
   .add('Letter Avatars', () =>
-    <div>
+    <Center>
       <LetterAvatars />
-    </div>
+    </Center>
   )
