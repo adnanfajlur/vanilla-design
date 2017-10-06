@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { storiesOf } from '@storybook/react'
+import Center from '../components/center'
 
 import FlatButtons from '../components/dev/buttons/FlatButtons'
 import RaisedButtons from '../components/dev/buttons/RaisedButtons'
@@ -10,27 +11,27 @@ import ButtonBases from '../components/dev/buttons/ButtonBases'
 
 storiesOf('Buttons', module)
   .add('Flat buttons', () =>
-    <div>
+    <Center>
       <FlatButtons />
-    </div>
+    </Center>
   )
   .add('Raised buttons', () =>
-    <div>
+    <Center>
       <RaisedButtons />
-    </div>
+    </Center>
   )
   .add('Floating Action buttons', () =>
-    <div>
+    <Center>
       <FloatingActionButtons />
-    </div>
+    </Center>
   )
   .add('Icon buttons', () =>
-    <div>
+    <Center>
       <IconButtons />
-    </div>
+    </Center>
   )
   .add('Button base', () =>
-    <div>
+    <Center>
       <ButtonBases />
-    </div>
+    </Center>
   )
