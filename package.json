@@ -1,0 +1,30 @@
+{
+  "name": "next.js",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "autosuggest-highlight": "^3.1.0",
+    "material-ui": "next",
+    "next": "latest",
+    "react": "^15.0.0",
+    "react-autosuggest": "^9.3.2",
+    "react-dom": "^15.0.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -s ./ -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
+    "build-storybook": "build-storybook -s ./static -o output"
+  },
+  "storybook-deployer": {
+    "gitUsername": "adnanfajlur",
+    "gitEmail": "adnanfajlur@gmail.com",
+    "commitMessage": "Deploy Storybook [skip ci]"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.2.12",
+    "@storybook/storybook-deployer": "^2.0.0"
+  }
+}

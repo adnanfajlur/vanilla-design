@@ -1,0 +1,20 @@
+/* stylelint-disable-next-line declaration-no-important */
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,800');
+
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  background: #F5F5F5;
+  color: #232323;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+}
