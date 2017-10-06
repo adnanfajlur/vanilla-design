@@ -5,7 +5,7 @@ import Center from '../components/center'
 
 import ImageGridList from '../components/dev/grid-list/ImageGridList'
 import TitlebarGridList from '../components/dev/grid-list/TitlebarGridList'
-import AdvencedGridList from '../components/dev/grid-list/AdvencedGridList'
+import AdvancedGridList from '../components/dev/grid-list/AdvancedGridList'
 import SingleLineGridList from '../components/dev/grid-list/SingleLineGridList'
 
 storiesOf('Grid List', module)
@@ -21,7 +21,7 @@ storiesOf('Grid List', module)
   )
   .add('Advanced Grid List', () =>
     <Center>
-      <AdvencedGridList />
+      <AdvancedGridList />
     </Center>
   )
   .add('Single Line Grid List', () =>
