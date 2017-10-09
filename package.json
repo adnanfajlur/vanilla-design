@@ -8,7 +8,8 @@
     "next": "latest",
     "react": "^15.0.0",
     "react-autosuggest": "^9.3.2",
-    "react-dom": "^15.0.0"
+    "react-dom": "^15.0.0",
+    "react-swipeable-views": "^0.12.8"
   },
   "scripts": {
     "dev": "next",

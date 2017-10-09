@@ -8,6 +8,7 @@ import Button from 'material-ui/Button';
 const styles = theme => ({
   button: {
     margin: theme.spacing.unit,
+    borderRadius: '7px',
   },
 });
 
