@@ -1,24 +1,13 @@
 import React from 'react'
 
 import { storiesOf } from '@storybook/react'
+import Center from '../components/center'
 
-import SimpleAppBar from '../components/dev/app-bar/SimpleAppBar'
-import ButtonAppBar from '../components/dev/app-bar/ButtonAppBar'
-import TopBar from '../components/dev/app-bar/TopBar'
+import AppBarButton from '../components/main/app-bar/AppBarButton'
 
 storiesOf('App Bars', module)
-  .add('Simple app bar', () =>
-    <div>
-      <SimpleAppBar />
-    </div>
-  )
-  .add('App with buttons', () =>
-    <div>
-      <ButtonAppBar />
-    </div>
-  )
-  .add('Xcidic App Bar', () =>
-    <div>
-      <TopBar />
-    </div>
+  .add('Buttons', () =>
+    <Center>
+      <AppBarButton />
+    </Center>
   )
